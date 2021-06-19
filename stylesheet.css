@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Kufam', cursive;
+    font-size: 20px;
+}
+.menu{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    text-align: center;
+    padding: 14px;
+    font-weight: 800;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.menu li{
+    display: inline-flex;
+    font-size: 30px;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    margin-top: -15px;
+    padding-bottom: 10px;
+    height: 60px;
+}
+
+
+#hospital{
+    margin-right: 10px;
+    margin-left: -38px;
+    color: yellow;
+    font-size: 90x;
+    
+}
+
+ .menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    margin-top: -15px;
+    padding-bottom: 10px;
+    height: 60px;
+}
+
+.menu a:hover{
+    background-color: rgb(4, 16, 22);
+    font-size: 30px;
+    margin-left: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    margin-top: -15px;
+    padding-bottom: 10px;
+    height: 60px;
+}
+.menu a:active{
+    background-color: rgb(5, 5, 34);
+    text-decoration: underline;
+    font-size: 30px;
+    margin-left: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    margin-top: -15px;
+    padding-bottom: 10px;
+    height: 60px;
+}
+
+#background{
+    background-image: url('hos.jpg');
+    height: 360px;
+    margin-bottom: 70px;
+    margin-top: -70px;
+    position: relative;
+
+}
+#health{
+    border: 0px solid black;
+    width: 480px;
+    height: 80px;
+    margin: 70px auto 0px;
+    padding: 12px;
+    font-size: 44px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-weight: 800;
+    position: relative;
+    top: 110px;
+
+}
+#care{
+    width: 480px;
+    border: 0px solid black;
+    margin: auto;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 420;
+    position: relative;
+    top: 110px;
+}
+
+#welcome{
+    width: 720px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 65px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+    font-weight: 550;
+    font-size: 45px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    box-shadow: 3px 3px 10px rgb(94, 9, 9);
+}
+.service{
+    background-color: red;
+    color: white;
+    width: 550px;
+    text-align: center;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 510;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    box-shadow: 3px 3px 10px rgb(94, 9, 9);
+
+}
+.headings{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Kufam', cursive;
+    font-weight: 450;
+}
+.medical_care{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Kufam', cursive;
+    font-weight: 450;
+    margin-bottom: 25px;
+}
+.list{
+    list-style-type: none;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Kufam', cursive;
+    font-size: 20px;
+    margin-bottom: 35px;
+
+}
+.about_us{
+    float: left;
+}
+.image{
+    float: right;
+    height: 250px;
+    width: 500px;
+    margin-left: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 50px 0;
+    margin-bottom: 0;
+    margin-top: 200px;
+    font-size: 23px;
+    
+}
+.bottom_menu{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.bottom_list{
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 100px;
+    
+}
+.bottom_list ul{
+    list-style-type: none;
+}
+.p{
+    font-size: 29px;
+    margin-bottom: 13px;
+}
+.bottom_list ul li a{
+    color: white;
+}
+.bottom_list ul li a:hover{
+    color: red;
+}
+
+/* designing login page */
+#login{
+    background-image: url('login_background.jpg');
+    background-size: cover;
+}
+
+#login_head{
+    font-size: 48px;
+    width: fit-content;
+    margin: 20px auto 5px;
+    color: rgb(5, 37, 5);
+}
+#login_footer{
+    margin-top: 2%;
+}
+#login_form_container{
+    height: 380px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+#login_form{
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    width: 50vw;
+    height: 40vh;
+    padding-top: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+.width{
+    font-size: 30px;
+}
+#forgot{
+    font-size: 25px;
+  
+    margin-top: 5px;
+}
+.box_width{
+    width: 400px;
+    height: 38px;
+    font-size: 21px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#forgot a{
+    color: wheat;
+    text-decoration: none;
+}
+#forgot a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#forgot a:active{
+    color: blue;
+    text-decoration: underline;
+}
+#login_button{
+    width: 130px;
+    height: 40px;
+    margin-top: 8px;
+    font-size: larger;
+    background-color: rgba(255, 255, 255, 0.959);
+    border-radius: 18px;
+    color: rgb(27, 9, 9);
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+}
+#login_button:hover{
+    background-color: rgb(208, 180, 180);
+}
+#login_button:active{
+    background-color: rgb(161, 109, 109);
+}
+
+/* designing registration page */
+
+#registration_footer{
+    margin-top: 5%;
+}
+#form_container{
+    margin-bottom: 0;
+    background-color: rgb(186, 207, 207);
+    width: 40%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 20px;
+}
+#registration_form p{
+    font-size: 23px;
+}
+.register_input{
+    margin-bottom: 18px;
+    width: 320px; height: 34px;
+    font-size: 19px;
+    padding-left: 7px;
+    border-radius: 5px;
+
+}
+#submit_register{
+   background-color: rgb(238, 217, 217);
+   width: 39%;
+   height: 32px;
+   font-size: 20px;
+   border-radius: 20px;
+}
+#submit_register:hover{
+    background-color: rgb(204, 189, 166);
+}
+
+#registeration_heading{
+    border: 1px solid black;
+    font-size: 32px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgb(64, 75, 1);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+body{
+    background-image: url('background_hospital.png');
+    background-size: cover;
+}
+
+
+
